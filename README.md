@@ -17,7 +17,7 @@ Add the ```connectedness.swift``` file into your project.
 
 ## Usage
 1.) Determine Resource
-####In order to check the speed of your network, a dummy resource must be downloaded from somewhere online. 
+#### In order to check the speed of your network, a dummy resource must be downloaded from somewhere online. 
 Replace the link in the ```testDownloadSpeedWithTimout...()``` function with a link to your own resource. A random ```.txt``` file will do.
 ```swift
 public func testDownloadSpeedWithTimout(timeout: NSTimeInterval, completionHandler:(megabytesPerSecond: Double?, error: NSError?) -> ()) {
