@@ -11,7 +11,7 @@ It checks this network speed with a default timeout of 5 seconds, then compares 
 
 ## Installation
 
-####Manual Only
+#### Manual Only
 
 Add the ```connectedness.swift``` file into your project.
 
